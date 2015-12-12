@@ -1,0 +1,14 @@
+program hello
+	INTEGER A
+	print *, 'Hello!'
+	print *,'A value is changed'
+	print *,A
+	
+
+	DO 1, I = 0, 7
+          A = A + 1;
+          print*, A
+        ENDDO
+
+
+end program hello
